@@ -1,0 +1,122 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient( rgba(198, 108, 73, 0.4), rgba(198, 108, 73, 0.4)), url(image/back_ground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 375px;
+    height: 275px;
+}
+
+header button {
+    position: absolute;
+    left: 34px;
+    top: 39px;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    background-color: unset;
+    border: unset;
+    color: white;
+}
+
+h1 {
+    position: relative;
+    left: 129px;
+    top: 36px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+
+header .hiText {
+    position: relative;
+    width: 217px;
+    height: 24px;
+    left: 79px;
+    top: 66px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+header .designer {
+    position: relative;
+    width: 181px;
+    height: 16px;
+    left: 97px;
+    top: 60px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+header a {
+    position: relative;
+    width: 79px;
+    height: 16px;
+    left: 147px;
+    top: 87px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+section h2 {
+    position: relative;
+    width: 72px;
+    height: 29px;
+    left: 151px;
+    top: 6px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    /* margin-bottom: 0; */
+}
+
+article p {
+    position: relative;
+    width: 312px;
+    height: 93px;
+    left: 34px;
+    top: 4px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+    color: #333333;
+}
+
+.skills {
+    background-color: #FFFAF2;
+}
+.skills p {
+    display: flex;
+    justify-content: space-between;
+}
